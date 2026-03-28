@@ -20,13 +20,16 @@ buttons.forEach(elem => {
     });
 });
 
-fetch('./components/products.json')
-.then( res => res.json())
-.then(data=>{
-    renderSlide(data.slide1, '.slider1 .slider-items');
-    renderSlide(data.slide2, '.slider2 .slider-items');
-    renderSlide(data.slide3, '.slider3 .slider-items');
-});
+async function handleData(){
+    let res = await fetch('./components/products.json');
+    let data = await res.json();
+
+    renderSlide(data.filter( item => { return item.cat_id == 1}  ), '.slider1 .slider-items');
+    renderSlide(data.filter( item => {return item.cat_id == 2}  ), '.slider2 .slider-items');
+    renderSlide(data.filter( item => {return item.cat_id == 3}  ), '.slider3 .slider-items');
+}
+
+handleData();
 
 function renderSlide(data, selector){
     const container = document.querySelector(selector);

@@ -5,7 +5,7 @@
         "img":"slider1.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
@@ -14,7 +14,7 @@
         "img":"slider2.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
@@ -23,7 +23,7 @@
         "img":"slider3.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
@@ -32,29 +32,29 @@
         "img":"slider4.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
-        "id":"1",
+        "id":"5",
         "name":"Chocolate",
         "img":"slider1.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
-        "id":"2",
+        "id":"6",
         "name":"Chocolate Latte",
         "img":"slider2.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"1.9",
         "cat_id":1
     },
     {
-        "id":"2",
+        "id":"7",
         "name":"Chocolate Latte",
         "img":"slider2.png",
         "rate":"4.9",
@@ -63,7 +63,7 @@
         "cat_id":2
     },
     {
-        "id":"3",
+        "id":"8",
         "name":"Coffee",
         "img":"slider3.png",
         "rate":"4.9",
@@ -72,7 +72,7 @@
         "cat_id":2
     },
     {
-        "id":"4",
+        "id":"9",
         "name":"Coffee",
         "img":"slider4.png",
         "rate":"4.9",
@@ -81,7 +81,7 @@
         "cat_id":2
     },
     {
-        "id":"1",
+        "id":"10",
         "name":"Latte",
         "img":"slider1.png",
         "rate":"4.9",
@@ -90,7 +90,7 @@
         "cat_id":2
     },
     {
-        "id":"3",
+        "id":"11",
         "name":"Latte",
         "img":"slider3.png",
         "rate":"4.9",
@@ -99,7 +99,7 @@
         "cat_id":2
     },
     {
-        "id":"4",
+        "id":"12",
         "name":"Latte",
         "img":"slider4.png",
         "rate":"4.9",
@@ -108,57 +108,57 @@
         "cat_id":2
     },
     {
-        "id":"3",
+        "id":"13",
         "name":"Chocolate Latte",
         "img":"slider3.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     },
     {
-        "id":"4",
+        "id":"14",
         "name":"Chocolate Latte",
         "img":"slider4.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     },
     {
-        "id":"3",
+        "id":"15",
         "name":"Chocolate Latte",
         "img":"slider3.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     },
     {
-        "id":"4",
+        "id":"16",
         "name":"Chocolate Latte",
         "img":"slider4.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     },
     {
-        "id":"3",
+        "id":"17",
         "name":"Chocolate Latte",
         "img":"slider3.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     },
     {
-        "id":"4",
+        "id":"18",
         "name":"Chocolate Latte",
         "img":"slider4.png",
         "rate":"4.9",
         "review":"230",
-        "price":"2.9",
+        "price":"3.9",
         "cat_id":3
     }
 ]
