@@ -1,5 +1,3 @@
-import './index.css';
-
 let text = document.querySelector('.inner-txt');
 let form = document.querySelector('.contact-form');
 let nameInput = document.querySelector('#name');

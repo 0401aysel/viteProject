@@ -12,11 +12,11 @@ buttons.forEach(elem => {
         event.target.classList.add('active');
         let sliderItem=`.slider${event.target.dataset.id}`;
         sliderLoad.forEach(elem => {
-            elem.classList.remove('active');
+            elem.classList.add('hidden');
         });
 
         let sliderElem = document.querySelector(sliderItem);
-        sliderElem.classList.add('active');
+        sliderElem.classList.remove('hidden');
     });
 });
 
@@ -63,7 +63,7 @@ function renderSlide(data, selector){
                     <span class="price">${item.price}</span><span>$</span>
                 </div>
                 <button class="add-to-cart">
-                    <img src="/images/plus.svg">
+                    <img class="m-auto" src="/images/plus.svg">
                 </button>
             </div>
         `;

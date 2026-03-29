@@ -7,12 +7,15 @@ import 'choices.js/public/assets/styles/choices.min.css';
 
 const selectElement = document.getElementById('choices-multiple-options');
 
-const choices = new Choices(selectElement, {
-    silent: false,
-    removeItemButton: true,
-    placeholderValue: 'Select your fav coffee',
-    maxItemCount: 2,
-});
+
+if(selectElement){
+    const choices = new Choices(selectElement, {
+        silent: false,
+        removeItemButton: true,
+        placeholderValue: 'Select your fav coffee',
+        maxItemCount: 2,
+    });
+}
 
 let header = document.querySelector('#header');
 let footer = document.querySelector('#footer');
