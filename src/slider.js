@@ -38,32 +38,33 @@ function renderSlide(data, selector){
 
     data.forEach(item =>{
         const div = document.createElement('div');
-        div.className = 'slider-item';
+        div.className = 'slider-item p-[10px] md:m-[6px] md:mb-[20px] m-[10px] box-border flex-shrink-0 shadow-[0_0_5px_-3px_#282a3a70] md:w-[calc(100%/3-18px)] sm:w-[calc(100%/2-20px)] w-full';
 
         div.innerHTML = `
-            <a href="/product.html" class="product-card-link">
+            <a href="/product.html" class="cursor-pointer product-card-link decoration-none">
                 <div class="radius-1">
-                    <img class="item-img" src="/images/${item.img}">
+                    <img class="item-img w-full" src="/images/${item.img}">
                 </div>
-                <p class="product-name">${item.name}</p>
+                <p class="product-name font-[PlusJakartaSans] text-(--black) leading-[140%] my-[10px] text-xl lg:text-2xl">${item.name}</p>
             </a>
 
-            <div class="rate">
-                <img src="/images/star.svg">
-                <p>${item.rate}</p>
-                <span>(${item.review} reviews)</span>
+            <div class="rate flex items-center">
+                <img class="w-[20px]" src="/images/star.svg">
+                <p class="text-xl mx-[7px] text-[rgba(40,42,58,0.7)]">${item.rate}</p>
+                <span class="text-base text-[rgba(40,42,58,0.72)]">(${item.review} reviews)</span>
             </div>
 
-            <p class="about-coffee">
+            <p class="about-coffee text-base text-[rgba(40,42,58,0.72)]">
             Lorem ipsum dolor sit amet consectetur.
             </p>
 
-            <div class="addToCart">
+            <div class="addToCart flex justify-between items-center">
                 <div>
-                    <span class="price">${item.price}</span><span>$</span>
+                    <span class="price mr-[3px] text-xl text-[rgba(40,42,58,0.7)] font-bold">${item.price}</span>
+                    <span class="mr-[3px] text-xl text-[rgba(40,42,58,0.7)] font-bold">$</span>
                 </div>
-                <button class="add-to-cart">
-                    <img class="m-auto" src="/images/plus.svg">
+                <button class="active:scale-90 transition-all duration-200 ease-linear add-to-cart p-0 border-0 rounded-[8px] w-[60px] h-[31px] lg:w-[80px] lg:h-[38px] bg-(--brown) transition-transform duration-100 ease-linear">
+                    <img class="m-auto w-[20px] h-[20px]" src="/images/plus.svg">
                 </button>
             </div>
         `;
