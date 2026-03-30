@@ -21,6 +21,7 @@ let header = document.querySelector('#header');
 let footer = document.querySelector('#footer');
 let about = document.querySelector('#about');
 let explore = document.querySelector('#explore');
+let products = document.querySelector('.products');
 
 header.innerHTML = Header;
 footer.innerHTML = Footer;

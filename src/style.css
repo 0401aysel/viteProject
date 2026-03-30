@@ -28,8 +28,6 @@
     src:url('/fonts/Poppins.ttf') format('truetype');
 }
 body{
-    background:#F5F5F5;
-    margin: 0;
     font-family: 'Inter';
     font-size:16px;
 }
@@ -55,11 +53,6 @@ input:focus-visible{
 }
 .choices:is([data-type*=select-multiple],[data-type*=text]) .choices__button{
     border-left:1px solid var(--white) !important;
-}
-.container{
-    max-width: 1200px;
-    background: var(--white);
-    margin: auto;
 }
 .explore .images{
     display: flex;
