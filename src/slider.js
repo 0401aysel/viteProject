@@ -63,7 +63,7 @@ function renderSlide(data, selector) {
                     <span class="price">${item.price}</span>
                     <span>$</span>
                 </div>
-                <button class="active:scale-90 transition-all add-to-cart p-0 border-0 rounded-lg w-15 h-[31px] lg:w-[80px] lg:h-[38px] bg-(--brown) duration-100 ease-linear">
+                <button class="active:scale-90 transition-all add-to-cart p-0 border-0 rounded-lg w-15 h-7.75 lg:w-20 lg:h-9.5 bg-(--brown) duration-100 ease-linear">
                     <img class="m-auto w-5 h-5" src="/images/plus.svg">
                 </button>
             </div>
