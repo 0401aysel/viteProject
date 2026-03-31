@@ -6,10 +6,10 @@ const About = `
                 <p class="m-0 mb-[40px] lg:text-4xl md:text-3xl text-2xl text-(--black) font-[PlayFairDisplay]" >Why we are the best</p>
             </div>
             <div class="about-inner flex gap-10">
-                <div class="text flex-1">
-                    <p class="text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.</p>
-                    <p class="text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc.</p>
-                    <p class="text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.</p>
+                <div class="text flex-1 [&>p]:text-lg [&>p]:lg:text-xl">
+                    <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.</p>
                     <a href="/about.html" class="cursor-pointer relative block m-auto mt-[24px] mb-[40px] text-(--white) decoration-none uppercase text-base md:text-xl font-[PlayFairDisplaySC] w-max bg-(--brown) pt-[6px] pb-[10px] pr-[50px] pl-[30px] rounded-br-4xl rounded-tl-4xl">
                         Explore Product 
                         <img class="absolute top-[10px] right-[26px] md:w-[22px] w-[18px]  " src="/images/arrowRight.svg">
