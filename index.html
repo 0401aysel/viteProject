@@ -45,6 +45,7 @@
             <div class="inner-container p-[20px] lg:p-[30px] xl:p-[60px]">
                 <div class="
                     proof-inner flex justify-between [&_.count]:m-0 
+                    md:[&>.proof-item]:px-[30px] [&>.proof-item]:px-[10px] [&>.proof-item]:[border-image:url('/images/border-right.png')] [&>.proof-item]:border-r-[1px] [&>.proof-item]:border-solid [&>.proof-item]:border-transparent [&>.proof-item]:last:border-r-0
                     [&>.proof-item>.count]:text-[var(--black)] [&>.proof-item>.count]:text-3xl md:[&>.proof-item>.count]:text-5xl lg:[&>.proof-item>.count]:text-6xl [&>.proof-item>.count]:tracking-[-2px] 
                     [&>.proof-item>.proof-item-text]:m-0 [&>.proof-item>.proof-item-text]:text-[var(--black)] [&>.proof-item>.proof-item-text]:font-[PlayFairDisplay] [&>.proof-item>.proof-item-text]:text-lg [&>.proof-item>.proof-item-text]:lg:text-2xl [&>.proof-item>.proof-item-text]:md:text-xl
                 ">
@@ -68,14 +69,19 @@
             </div>
         </section>
         <section class="products">
-            <div class="inner-container p-[20px] lg:p-[30px] xl:p-[60px]">
+            <div class="
+                inner-container p-[20px] lg:p-[30px] xl:p-[60px] 
+                [&>.coffee-slider>.slider-items]:flex [&>.coffee-slider>.slider-items]:flex-wrap [&>.coffee-slider>.slider-items]:justify-center
+                [&>.coffee-slider>.slider-items>.slider-item]:p-[10px] [&>.coffee-slider>.slider-items>.slider-item]:md:m-[6px] [&>.coffee-slider>.slider-items>.slider-item]:md:mb-[20px] [&>.coffee-slider>.slider-items>.slider-item]:m-[10px] [&>.coffee-slider>.slider-items>.slider-item]:box-border [&>.coffee-slider>.slider-items>.slider-item]:flex-shrink-0 [&>.coffee-slider>.slider-items>.slider-item]:shadow-[0_0_5px_-3px_#282a3a70] [&>.coffee-slider>.slider-items>.slider-item]:md:w-[calc(100%/3-18px)] [&>.coffee-slider>.slider-items>.slider-item]:sm:w-[calc(100%/2-20px)] [&>.coffee-slider>.slider-items>.slider-item]:w-full
+            ">
                 <div class="products-title text-center">
                     <span class="text-(--black) text-xl opacity-56">Our Products</span>
                     <p class="m-0 md:mb-[40px] mb-[20px] font-[PlayFairDisplay] text-(--black) lg:text-4xl md:text-3xl text-2xl">From Top Quality Materials</p>
                 </div>
                 <div class="
                     product-types m-auto p-[10px] bg-(--bright-grey) w-fit mb-[20px] md:mb-[40px] rounded-[40px]
-                    [&>button:active]:scale-90 [&>button]:transition-all [&>button]:duration-200 [&>button]:ease-linear [&>button]:cursor-pointer [&>button]:text-[rgba(40,42,58,0.7)] [&>button]:text-lg [&>button]:rounded-[40px] [&>button]:md:text-xl [&>button]:py-[7px] [&>button]:px-[30px] [&>button]:lg:py-[16px] [&>button]:lg:px-[40px] [&>button]:md:py-[7px] [&>button]:md:px-[18px] [&>button]:border-0 [&>button]:bg-transparent
+                    [&>.active]:bg-white
+                    [&>button:active]:scale-90 [&>button]:transition-all [&>button]:duration-200 [&>button]:ease-linear [&>button]:cursor-pointer [&>button]:text-[rgba(40,42,58,0.7)] [&>button]:text-lg [&>button]:rounded-[40px] [&>button]:md:text-xl [&>button]:py-[7px] md:[&>button]:px-[30px] [&>button]:px-[14px] [&>button]:lg:py-[16px] [&>button]:lg:px-[40px] [&>button]:md:py-[7px] [&>button]:md:px-[18px] [&>button]:border-0 [&>button]:bg-transparent
                 ">
                     <button class="latte active" data-id="1">
                         Latte
@@ -87,7 +93,7 @@
                         Acabica
                     </button>
                 </div>
-                <div class="coffee-slider slider1 [&>.slider-items]:flex [&>.slider-items]:flex-wrap [&>.slider-items]:justify-center">
+                <div class="coffee-slider slider1">
                     <div class="slider-items"></div>
                 </div>
                 <div class="coffee-slider hidden slider2">

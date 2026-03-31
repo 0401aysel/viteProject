@@ -81,7 +81,7 @@ const Footer = `
                             <label for="mail" class="absolute w-max block md:top-[18px] md:left-[20px] top-[14px] left-[13px]">
                                 <img class="md:w-[24px] w-[18px]" src="/images/mail.png">
                             </label>
-                            <input  id ="mail" class="transition-all duration-200 ease-linear subscibe-mail md:h-[59px] h-[46px] pl-[40px] md:pl-[50px] text-(--white) bg-white/12 rounded-[16px] w-full box-border placeholder:opacity-0 md:placeholder:opacity-100 placeholder:text-base placeholder:font-[Poppins] placeholder:text-white/40" name="mail" placeholder="name@domain.com"/>
+                            <input  id ="mail" class="focus-visible:outline-none transition-all duration-200 ease-linear subscibe-mail md:h-[59px] h-[46px] pl-[40px] md:pl-[50px] text-(--white) bg-white/12 rounded-[16px] w-full box-border placeholder:opacity-0 md:placeholder:opacity-100 placeholder:text-base placeholder:font-[Poppins] placeholder:text-white/40" name="mail" placeholder="name@domain.com"/>
                             <button type="submit" class="active:scale-90 transition-all duration-200 ease-linear cursor-pointer absolute font-[Poppins] md:top-[17px] top-[10px] right-[16px] md:right-[18px]">Send</button>
                             <p class="mail-error text-white text-xs"></p>
                         </form>

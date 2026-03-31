@@ -31,10 +31,6 @@ body{
     font-family: 'Inter';
     font-size:16px;
 }
-input:focus-visible{
-    outline: none;
-    transform: scale(1.01);
-}
 .choices__inner{
     box-sizing: border-box;
 }
@@ -46,37 +42,5 @@ input:focus-visible{
     border-left:1px solid var(--white) !important;
 }
 .proof-item{
-    padding:0 30px;
-    border-right: 1px solid transparent;
-    border-image:url('/images/border-right.png');
     border-image-slice: 1;
-}
-.proof-item:last-child{
-    border-right:none;
-}
-.product-types button.active{
-    background: white;
-}
-@media screen and (max-width: 767px) {
-    .proof-item {
-        padding: 0 10px;
-    }
-    .menu {
-        margin: 0;
-        position: absolute;
-        top: -100%;
-        left: 0;
-        width: 100%;
-        background: var(--black);
-        box-sizing: border-box;
-        display: inline-block;
-        opacity: 0;
-        z-index:-1;
-        transition: all 0.3s linear;
-    }
-    .menu.show {
-        opacity: 1;
-        z-index:2;
-        top:0;
-    }
 }

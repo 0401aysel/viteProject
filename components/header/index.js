@@ -1,17 +1,17 @@
 const Header =`
     <header>
-        <div class="header-container flex justify-between items-center py-[20px] lg:px-[60px] md:px-[30px] px-[20px] ">
+        <div class="header-container flex justify-between items-center py-[20px] lg:px-[60px] md:px-[30px] px-[20px]">
             <div class="logo">
                 <a href="/" class="cursor-pointer">
                     <img class="w-[30px] md:w-[40px]" src="/images/logo.png">
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu z-[-1] md:z-[1] [&.show]:z-[2] md:w-max w-full m-0 md:relative absolute opacity-0 md:opacity-100 [&.show]:opacity-100 -top-full [&.show]:top-0 left-0 box-border transition-all duration-300 ease-linear bg-(--black) md:bg-transparent ">
                 <ul class="
                     inline-block md:flex p-0 gap-[20px] list-none 
                     [.menu.show_&]:w-full [.menu.show_&]:py-[30px] [.menu.show_&]:px-[40px] [.menu.show_&]:box-border [.menu.show_&]:max-h-max
-                    [&>li>a]:cursor-pointer [&>li>a]:block [&>li>a]:md:inline [&>li>a]:text-base [&>li>a]:md:text-(--black) [&>li>a]:decoration-none [&>li>a]:font-[Inter]
-                    [.menu.show_&>li>a]:!text-(--white) [.menu.show_&>li>a]:!p-[6px]
+                    [&>li>a]:cursor-pointer [&>li>a]:block [&>li>a]:md:inline [&>li>a]:text-base [&>li>a]:md:!text-(--black) [&>li>a]:decoration-none [&>li>a]:font-[Inter]
+                    [.menu.show_&>li>a]:text-(--white) [.menu.show_&>li>a]:!p-[6px]
                 ">
                     <button class="active:scale-90 transition-all duration-200 ease-linear cursor-pointer close-menu absolute p-0 m-0 w-[30px] border-0 bg-transparent right-[20px] top-[20px] hidden [.menu.show_&]:!block">
                         <img class="w-[20px]" src="/images/close.svg">
