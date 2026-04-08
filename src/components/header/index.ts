@@ -1,4 +1,4 @@
-const Header = `
+const Header: string = `
     <header>
         <div class="header-container flex justify-between items-center py-5 lg:px-15 md:px-7.5 px-5">
             <div class="logo">

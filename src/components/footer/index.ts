@@ -1,4 +1,4 @@
-const Footer = `
+const Footer: string = `
     <footer class="bg-(--black) text-(--white)">
         <div class="inner-container p-5 lg:p-7.5 xl:p-15 ">
             <div class="footer-inner md:flex">

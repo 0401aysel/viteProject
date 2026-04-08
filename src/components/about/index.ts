@@ -1,4 +1,4 @@
-const About = `
+const About: string = `
     <section class="about">
         <div class="inner-container p-5 lg:p-7.5 xl:p-15">
             <div class="about-title text-center">
